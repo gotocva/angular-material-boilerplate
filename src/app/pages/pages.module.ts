@@ -6,6 +6,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 @NgModule({
   declarations: [
     LoginComponent, 
@@ -15,7 +17,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   imports: [
     CommonModule,
     SharedModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FlexLayoutModule
   ]
 })
 export class PagesModule { }
