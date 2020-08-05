@@ -51,6 +51,6 @@
     "typescript": "~3.9.5"
   },
   "browser": {
-      "crypto": false
+    "crypto": false
   }
 }
